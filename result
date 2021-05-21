@@ -1,0 +1,14 @@
+============================= test session starts ==============================
+platform linux -- Python 3.8.5, pytest-6.2.2, py-1.10.0, pluggy-0.13.1 -- /usr/bin/python3
+cachedir: .pytest_cache
+rootdir: /home/gredfix/classes
+plugins: Faker-6.6.0
+collecting ... collected 5 items
+
+test_advert.py::test_validation[given0-ValueError] PASSED                [ 20%]
+test_advert.py::test_validation[given1-KeyError] PASSED                  [ 40%]
+test_advert.py::test_default_price PASSED                                [ 60%]
+test_advert.py::test_corgi_in_colors PASSED                              [ 80%]
+test_advert.py::test_has_fields_from_dict PASSED                         [100%]
+
+============================== 5 passed in 0.05s ===============================
